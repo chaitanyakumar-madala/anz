@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59246" started-at="2021-12-19T11:57:44Z" finished-at="2021-12-19T11:58:43Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.anz.testrunner.TestRunner@49d904ec]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="59246" started-at="2021-12-19T11:57:44Z" finished-at="2021-12-19T11:58:43Z">
+      <class name="com.anz.testrunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.anz.testrunner.TestRunner@49d904ec]" name="setUpClass" is-config="true" duration-ms="735" started-at="2021-12-19T11:57:44Z" finished-at="2021-12-19T11:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.anz.testrunner.TestRunner@49d904ec]" name="runScenario" duration-ms="21113" started-at="2021-12-19T11:57:44Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-19T11:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify a person has borrowing estimate of specific amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ANZ loan Calculator]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.anz.testrunner.TestRunner@49d904ec]" name="runScenario" duration-ms="19599" started-at="2021-12-19T11:58:05Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-19T11:58:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Clicking on start over button clears the form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ANZ loan Calculator]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.anz.testrunner.TestRunner@49d904ec]" name="runScenario" duration-ms="17539" started-at="2021-12-19T11:58:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-19T11:58:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify entering only one dollar for living expenses leaving all fields as zero and clicking Borrow buttons gives Based on the details you have  entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641 message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ANZ loan Calculator]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.anz.testrunner.TestRunner@49d904ec]" name="tearDownClass" is-config="true" duration-ms="214" started-at="2021-12-19T11:58:43Z" finished-at="2021-12-19T11:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.anz.testrunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
