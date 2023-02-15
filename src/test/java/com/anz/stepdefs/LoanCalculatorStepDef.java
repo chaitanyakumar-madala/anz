@@ -128,4 +128,5 @@ public class LoanCalculatorStepDef {
 		scenario.attach(fileContent, "image/png", scenario.getName());
 		driver.quit();
 	}
+	//end of class
 }
